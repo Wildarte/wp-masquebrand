@@ -8,7 +8,7 @@
         <div class="over_content_hero_home">
             <div class="container d-flex content_hero_home">
                 <div class="w-100 d-flex justify-space-between align-items-center">
-                    <h2 class="title-default m-b-40 f-60">YOUR PERSONALITY</h2>
+                    <h2 class="title-default m-b-40 f-60 animate__animated">YOUR PERSONALITY</h2>
                     <div class="f-40 d-flex">
                         <a href="" class="m-auto color-white btn-default btn-icon d-flex align-items-center">Contact us <span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
@@ -24,7 +24,7 @@
     <section>
         <div class="container d-flex section-default">
             <div class="f-50 left_content">
-                <h3>ABOUT</h3>
+                <h3 class="subtitle">ABOUT</h3>
                 <h2 class="title-second m-b-60">BrandMasque</h2>
 
                 <p class="text-default m-b-60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos aperiam, quis aut quam voluptatum corporis perspiciatis, ullam, provident at iusto quod minima odio nam excepturi architecto! Repudiandae rem repellat reprehenderit, porro consequuntur quaerat odit qui ratione eveniet mollitia soluta?</p>
@@ -33,7 +33,7 @@
                     <a href="" class="btn-default w-100 d-flex justify-space-between color-white btn-icon align-items-center">READ MORE <span><i class="bi bi-arrow-right"></i></span></a>
                 </div>
             </div>
-            <div class="f-50 d-flex right_content justify-flex-end">
+            <div class="f-50 d-flex right_content justify-flex-end inner_img_fluid">
                 <img src="<?= get_template_directory_uri() ?>/assets/img/imag.jpg" alt="" class="">
             </div>
         </div>
@@ -41,24 +41,24 @@
 
     <section>
         <div class="container d-flex section-default">
-            <div class="f-25">
+            <div class="f-25 card_count">
                 <h3><span>3</span>+</h3>
-                <hr>
+                
                 <p class="text-default">years of work of our studio</p>
             </div>
-            <div class="f-25">
+            <div class="f-25 card_count">
                 <h3><span>680</span>+</h3>
-                <hr>
+                
                 <p class="text-default">created unique interiors</p>
             </div>
-            <div class="f-25">
+            <div class="f-25 card_count">
                 <h3><span>946</span>+</h3>
-                <hr>
+                
                 <p class="text-default">happy clients</p>
             </div>
-            <div class="f-25">
+            <div class="f-25 card_count">
                 <h3><span>59,343</span>+</h3>
-                <hr>
+                
                 <p class="text-default">sq. m designed by us</p>
             </div>
         </div>
@@ -66,7 +66,7 @@
 
     <section>
         <div class="container section-default d-flex text-center">
-            <h2 class="title-default m-auto f-70 text-center">EVERY GREAT  DESIGN  BEGINS WITH AN EVEN BETTER STORY </h2>
+            <h2 class="title-default m-auto f-70 text-center font-lato title_cta">EVERY GREAT  DESIGN  BEGINS WITH AN EVEN BETTER STORY </h2>
         </div>
         <div class="container section-default">
             <img src="<?= get_template_directory_uri() ?>/assets/img/imas.jpeg" alt="">
@@ -89,7 +89,7 @@
                     <div class="f-50"></div>
                 </div>
             </div>
-            <div class="f-50 d-flex right_content justify-flex-end">
+            <div class="f-50 d-flex right_content justify-flex-end inner_img_fluid">
                 <img src="<?= get_template_directory_uri() ?>/assets/img/imag.jpg" alt="" class="">
             </div>
         </div>
@@ -97,7 +97,7 @@
 
     <section>
         <div class="container d-flex section-default">
-            <h3 class="w-100">OUR</h3>
+            <h3 class="w-100 subtitle">OUR</h3>
             <h2 class="title-second m-b-60">Last Projects</h2>
             
             <section class="d-flex">
@@ -147,8 +147,8 @@
                 </div>
             </section>
 
-            <div class="w-100 text-center">
-                <a href="">Ver mais <span><i class="bi bi-plus-circle"></i></span></a>
+            <div class="w-100 text-center p-10">
+                <a href="" class="btn-default color-white">Ver mais <span><i class="bi bi-plus-circle"></i></span></a>
             </div>
             
         </div>
@@ -191,7 +191,7 @@
     <section>
         <div class="container d-flex section-default">
             <div class="f-50 ">
-                <h3>It's Time To</h3>
+                <h3 class="subtitle">It's Time To</h3>
                 <h2 class="title-second m-b-60">DISCUSS YOUR PROJECT</h2>
 
                 <p class="text-default m-b-60">Please, fill the following application in order to get free expert advice by specialists</p>

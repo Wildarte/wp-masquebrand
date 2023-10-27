@@ -2,6 +2,7 @@
 // Função para carregar os estilos e scripts do tema
 function load_theme_styles_and_scripts() {
     // Carrega o arquivo CSS do tema
+    wp_enqueue_style('animate', get_template_directory_uri().'/assets/css/animate.css', [], '1.0', false);
     wp_enqueue_style('reset', get_template_directory_uri().'/assets/css/reset.css', [], '1.0', false);
     wp_enqueue_style('style', get_template_directory_uri().'/assets/css/style.css', [], '1.0', false);
 

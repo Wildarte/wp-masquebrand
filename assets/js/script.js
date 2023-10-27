@@ -18,3 +18,35 @@ item_faq.forEach((item, index) => {
     });
 
 });
+
+const btn_menu = document.querySelector('.btn_menu');
+const nav_menu = document.querySelector('nav.menu');
+const over_body = document.querySelector('.over_body');
+
+if(btn_menu){
+
+    btn_menu.addEventListener('click', () => {
+
+        if(nav_menu.classList.contains('open_menu')){
+            nav_menu.classList.remove('open_menu');
+            over_body.classList.remove('open_over_body');
+        }else{
+            nav_menu.classList.add('open_menu');
+            over_body.classList.add('open_over_body');
+        }
+
+    });
+
+}
+
+document.addEventListener('scroll',() => {
+
+    let sc = window.scrollY;
+
+    if(sc > 100){
+        document.querySelector('header.header').classList.add('bg-dark');
+    }else{
+        document.querySelector('header.header').classList.remove('bg-dark');
+    }
+
+});

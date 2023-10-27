@@ -25,8 +25,10 @@
         <div class="col_footer">
             <h4>Redes sociais</h4>
 
-            <ul>
-                <li></li>
+            <ul class="social_footer">
+                <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a href=""><i class="bi bi-youtube"></i></a></li>
             </ul>
         </div>
     </div>
@@ -35,6 +37,10 @@
         <p class="color-white p-10">Brandmasque</p>
     </div>
 </footer>
+
+<a href="#" class="btn_float">
+    <i class="bi bi-telephone"></i>
+</a>
 
 <?php wp_footer(); ?>
 </body>

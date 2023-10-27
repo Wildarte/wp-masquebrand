@@ -17,6 +17,9 @@ body{
 img{
     max-width: 100%;
 }
+.bg-dark{
+    background-color: var(--color-dark);
+}
 .container{
     max-width: var(--container);
     margin: auto;
@@ -123,6 +126,9 @@ img{
 .p-10{
     padding: 10px;
 }
+.subtitle{
+    font-weight: 300;
+}
 /* ======================== general style ========================= */
 
 header.header{
@@ -135,7 +141,17 @@ header.header{
 .container_header{
     padding: 25px 10px;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(255,255,255, .5);
+    /*border-bottom: 1px solid rgba(255,255,255, .5);*/
+    position: relative;
+}
+.container_header::after{
+    content: "";
+    width: calc(100% - 20px);
+    height: 1px;
+    background-color: rgba(255,255,255, .5);
+    position: absolute;
+    left: 10px;
+    bottom: 0;
 }
 nav.menu{
     display: flex;
@@ -195,6 +211,7 @@ nav.menu ul li a{
 .content_hero_home{
     align-content: flex-end;
     height: 100%;
+    padding: 10px;
 }
 .content_hero_home p{
     width: 40%;
@@ -208,6 +225,12 @@ nav.menu ul li a{
 .card_project{
     position: relative;
     margin: 10px;
+    height: 540px;
+}
+.card_project img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .info_card_project{
     position: absolute;
@@ -322,4 +345,194 @@ nav.menu ul li a{
     width: 100%;
     height: 1px;
     background-color: rgba(255,255,255, .5);
+}
+.card_count h3{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: var(--font-lato);
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.card_count h3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    height: 1px;
+    background-color: var(--color-white);
+}
+.title_cta{
+    font-family: var(--font-lato);
+}
+.social_footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social_footer li{
+    display: flex;
+}
+.social_footer li a{
+    color: var(--color-white);
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn_float{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    color: var(--color-white);
+    transition: all .23s;
+}
+.btn_float:hover{
+    background-color: rgba(255,255,255, .1);
+}
+.btn_menu{
+    display: none;
+}
+
+@media(max-width: 1200px){
+    .btn_menu{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40px;
+        align-content: center;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    .btn_menu .row_menu{
+        width: 100%;
+        height: 1px;
+        background-color: var(--color-white);
+        margin: 2px;
+    }
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .container_header::after{
+        width: calc(100% - 60px);
+        left: 30px;
+    }
+    nav.menu{
+        display: none;
+    }
+    .container_header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 100px;
+        position: relative;
+    }
+    nav.menu{
+        display: flex;
+        position: fixed;
+        align-items: flex-start;
+        top: 0;
+        right: -100%;
+        width: 320px;
+        height: 100%;
+        background-color: var(--color-dark);
+        padding-top: 100px;
+        z-index: 100;
+        transition: all .23s;
+    }
+    .open_menu{
+        right: 0!important;
+    }
+    nav.menu ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    nav.menu ul li{
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+    nav.menu ul li a{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .over_body{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(1,1,1, .7);
+        z-index: 10;
+        transition: all .23s;
+    }
+    .open_over_body{
+        right: 0!important;
+    }
+    
+}
+
+@media(max-width: 768px){
+    .img_hero{
+        width: 100%;
+    }
+    .hero_home{
+        padding: 0;
+    }
+    .title-default{
+        font-size: 32px;
+    }
+    .f-50{
+        flex-basis: 100%;
+    }
+    .inner_img_fluid img{
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+    .left_content{
+        padding-right: 0;
+    }
+    .text-default{
+        font-size: 16px;
+    }
+    .left_content{
+        margin-bottom: 40px;
+    }
+    .f-25{
+        flex-basis: 100%;
+    }
+    .card_count{
+        text-align: center;
+    }
+    .card_count h3{
+        width: 30%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .card_count h3::after{
+        left: 30px;
+    }
+    .card_project{
+        height: 350px;
+    }
+    .left_faq{
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .title-second{
+        font-size: 28px;
+    }
 }
