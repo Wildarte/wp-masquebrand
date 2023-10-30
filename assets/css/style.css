@@ -13,6 +13,7 @@ body{
     background-color: var(--color-dark);
     color: var(--color-white);
     font-family: var(--font-montserrat);
+    overflow-x: hidden;
 }
 img{
     max-width: 100%;
@@ -86,6 +87,9 @@ img{
 }
 .justify-space-between{
     justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
 }
 .color-white{
     color: var(--color-white);
@@ -400,6 +404,84 @@ nav.menu ul li a{
 .btn_menu{
     display: none;
 }
+.content_page{
+    padding: 120px 0;
+}
+
+
+
+/* ========================= page projetos ============================== */
+.list_projetos{
+    padding: 40px;
+    display: flex;
+}
+.list_projetos li a{
+    font-size: 1.4em;
+    color: rgba(255,255,255, .3);
+    border-bottom: 2px solid rgba(255,255,255, .3);
+    padding: 4px 40px;
+}
+.list_projetos li a:hover{
+    color: var(--color-white);
+    border-bottom: 2px solid var(--color-white);
+}
+.list_projetos li a.active{
+    color: var(--color-white);
+    border-bottom: 2px solid var(--color-white);
+}
+/* ========================= page projetos ============================== */
+
+
+/* ========================= page sobre ================================= */
+.carousel_team{
+    max-width: 1000px;
+    margin: auto;
+}
+.carousel_team img{
+    margin: 30px;
+    max-height: 500px;
+}
+.carousel_team .slick-prev.slick-arrow{
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    z-index: 1;
+}
+.carousel_team .slick-next.slick-arrow{
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    z-index: 1;
+}
+.carousel_team .slick-arrow{
+    font-size: 1.5em;
+    background-color: transparent;
+    color: var(--color-white);
+    border-radius: 50%;
+    color: var(--color-white);
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel_team .slick-arrow:hover{
+    background-color: rgba(255,255,255, .1);
+    cursor: pointer;
+}
+.carousel_team .slick-center {
+    transition: all .23s;
+}
+.carousel_team .slick-center {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);
+}
+/* ========================= page sobre ================================= */
+
+
 
 @media(max-width: 1200px){
     .btn_menu{
@@ -534,5 +616,30 @@ nav.menu ul li a{
     }
     .title-second{
         font-size: 28px;
+    }
+}
+
+@media(max-width: 600px){
+    .f-40, .f-60, .f-70, .f-30{
+        flex-basis: 100%;
+    }
+    .content_hero_home p{
+        width: 100%;
+    }
+    .m-b-40{
+        margin-bottom: 20px;
+    }
+    .m-b-60{
+        margin-bottom: 30px;
+    }
+    .btn-icon span{
+        width: 40px;
+        height: 40px;
+    }
+    .title-default{
+        font-size: 24px;
+    }
+    .btn_float{
+        right: 30px;
     }
 }

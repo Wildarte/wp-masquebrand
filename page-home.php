@@ -8,14 +8,14 @@
         <div class="over_content_hero_home">
             <div class="container d-flex content_hero_home">
                 <div class="w-100 d-flex justify-space-between align-items-center">
-                    <h2 class="title-default m-b-40 f-60 animate__animated">YOUR PERSONALITY</h2>
-                    <div class="f-40 d-flex">
+                    <h2 class="title-default m-b-40 f-60 animate__animated animate__fadeInLeft">YOUR PERSONALITY</h2>
+                    <div class="f-40 d-flex animate__animated animate__fadeInRight">
                         <a href="" class="m-auto color-white btn-default btn-icon d-flex align-items-center">Contact us <span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
                 </div>
                 <div class="w-100 d-flex justify-space-between">
-                    <p class="text-default m-b-60">Our interior design studio guarantees the perfect balance between functionality, calculation and personalization</p>
-                    <h2 class="title-default m-b-60">OUR CREATION</h2>
+                    <p class="text-default m-b-60 animate__animated animate__fadeInLeft">Our interior design studio guarantees the perfect balance between functionality, calculation and personalization</p>
+                    <h2 class="title-default m-b-60 animate__animated animate__fadeInRight">OUR CREATION</h2>
                 </div>
             </div>
         </div>
@@ -201,7 +201,7 @@
                     <input type="text" name="" id="">
                     <input type="text" name="" id="">
                     <div class="d-flex">
-                        <button type="submit" class="btn-default w-100 d-flex justify-space-between color-white btn-icon align-items-center">READ MORE <span><i class="bi bi-arrow-right"></i></span></button>
+                        <button type="submit" class="btn-default w-100 d-flex justify-space-between color-white btn-icon align-items-center">ENVIAR <span><i class="bi bi-arrow-right"></i></span></button>
                     </div>
                 </form>
 
