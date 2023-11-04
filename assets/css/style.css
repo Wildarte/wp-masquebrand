@@ -228,6 +228,8 @@ nav.menu ul li a{
 }
 .right_content img{
     height: 550px;
+    width: auto;
+    object-fit: cover;
 }
 .card_project{
     position: relative;
@@ -409,6 +411,9 @@ nav.menu ul li a{
 }
 .content_page{
     padding: 120px 0;
+}
+.cta_img img{
+    width: 100%;
 }
 
 
