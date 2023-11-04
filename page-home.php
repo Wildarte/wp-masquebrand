@@ -8,14 +8,14 @@
         <div class="over_content_hero_home">
             <div class="container d-flex content_hero_home">
                 <div class="w-100 d-flex justify-space-between align-items-center">
-                    <h2 class="title-default m-b-40 f-60 animate__animated animate__fadeInLeft">YOUR PERSONALITY</h2>
+                    <h2 class="title-default m-b-40 f-60 text-uppercase animate__animated animate__fadeInLeft">Sua Personalidade</h2>
                     <div class="f-40 d-flex animate__animated animate__fadeInRight">
-                        <a href="" class="m-auto color-white btn-default btn-icon d-flex align-items-center">Contact us <span><i class="bi bi-arrow-right"></i></span></a>
+                        <a href="" class="m-auto color-white btn-default btn-icon d-flex align-items-center">Contato <span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
                 </div>
                 <div class="w-100 d-flex justify-space-between">
-                    <p class="text-default m-b-60 animate__animated animate__fadeInLeft">Our interior design studio guarantees the perfect balance between functionality, calculation and personalization</p>
-                    <h2 class="title-default m-b-60 animate__animated animate__fadeInRight">OUR CREATION</h2>
+                    <p class="text-default m-b-60 animate__animated animate__fadeInLeft">Design e Criação de Marcas: Transformamos sua Visão em Identidade. Conte com nosso talento criativo para construir marcas memoráveis e impactantes.</p>
+                    <h2 class="title-default m-b-60 animate__animated animate__fadeInRight text-uppercase">Nossa Criação</h2>
                 </div>
             </div>
         </div>
@@ -24,13 +24,13 @@
     <section>
         <div class="container d-flex section-default">
             <div class="f-50 left_content">
-                <h3 class="subtitle">ABOUT</h3>
+                <h3 class="subtitle">Sobre</h3>
                 <h2 class="title-second m-b-60">BrandMasque</h2>
 
                 <p class="text-default m-b-60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos aperiam, quis aut quam voluptatum corporis perspiciatis, ullam, provident at iusto quod minima odio nam excepturi architecto! Repudiandae rem repellat reprehenderit, porro consequuntur quaerat odit qui ratione eveniet mollitia soluta?</p>
 
                 <div class="d-flex">
-                    <a href="" class="btn-default w-100 d-flex justify-space-between color-white btn-icon align-items-center">READ MORE <span><i class="bi bi-arrow-right"></i></span></a>
+                    <a href="" class="btn-default w-100 d-flex justify-space-between color-white btn-icon align-items-center">Saiba Mais <span><i class="bi bi-arrow-right"></i></span></a>
                 </div>
             </div>
             <div class="f-50 d-flex right_content justify-flex-end inner_img_fluid">
@@ -66,7 +66,7 @@
 
     <section>
         <div class="container section-default d-flex text-center">
-            <h2 class="title-default m-auto f-70 text-center font-lato title_cta">EVERY GREAT  DESIGN  BEGINS WITH AN EVEN BETTER STORY </h2>
+            <h2 class="title-default m-auto f-70 text-center font-lato title_cta text-uppercase">TODO grande DESIGN COMEÇA COM UMA HISTÓRIA AINDA MELHOR</h2>
         </div>
         <div class="container section-default">
             <img src="<?= get_template_directory_uri() ?>/assets/img/imas.jpeg" alt="">
@@ -77,7 +77,7 @@
         <div class="container section-default d-flex">
             <div class="f-50 left_content">
 
-                <p class="text-middle m-b-60">Our studio specializes in creating concepts of modern interior solutions and their subsequent implementation. We have a lot of experience, and it helps to easily solve any issues and keep abreast of trends</p>
+                <p class="text-middle m-b-60">Nossa empresa é especializado na criação de design de soluções para sua marca. Temos muita experiência, o que ajuda a resolver facilmente quaisquer problemas e a acompanhar as tendências.</p>
 
                 <div class="d-flex">
                     <div class="f-50 text-center">
@@ -97,8 +97,8 @@
 
     <section>
         <div class="container d-flex section-default">
-            <h3 class="w-100 subtitle">OUR</h3>
-            <h2 class="title-second m-b-60">Last Projects</h2>
+            <h3 class="w-100 subtitle">Nossos</h3>
+            <h2 class="title-second m-b-60">Últimos Projetos</h2>
             
             <section class="d-flex">
                 <div class="f-50">
@@ -191,10 +191,10 @@
     <section>
         <div class="container d-flex section-default">
             <div class="f-50 ">
-                <h3 class="subtitle">It's Time To</h3>
-                <h2 class="title-second m-b-60">DISCUSS YOUR PROJECT</h2>
+                <h3 class="subtitle">Está na hora</h3>
+                <h2 class="title-second m-b-60 text-uppercase">Vamos conversar sobre seu projeto</h2>
 
-                <p class="text-default m-b-60">Please, fill the following application in order to get free expert advice by specialists</p>
+                <p class="text-default m-b-60">Preencha o formulário para obter ajuda de especialistas</p>
 
 
                 <form action="" class="form_contact">

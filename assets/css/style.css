@@ -18,6 +18,9 @@ body{
 img{
     max-width: 100%;
 }
+.text-uppercase{
+    text-transform: uppercase;
+}
 .bg-dark{
     background-color: var(--color-dark);
 }
@@ -428,6 +431,10 @@ nav.menu ul li a{
 .list_projetos li a.active{
     color: var(--color-white);
     border-bottom: 2px solid var(--color-white);
+}
+.content_single_page img{
+    width: 100%;
+    margin: 10px 0;
 }
 /* ========================= page projetos ============================== */
 

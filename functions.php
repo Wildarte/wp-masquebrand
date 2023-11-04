@@ -41,3 +41,12 @@ function theme_setup() {
     ));
 }
 add_action('after_setup_theme', 'theme_setup');
+
+add_theme_support('post-thumbnails');
+
+
+require('admin/custom-project/custom-post-project.php');
+require('admin/custom-services/custom-post-service.php');
+require('admin/fields-contato.php');
+require('admin/fields-footer.php');
+require('admin/fields-header.php');

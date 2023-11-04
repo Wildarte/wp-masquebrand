@@ -36,7 +36,12 @@
             </div>
             
             <div class="right_header d-flex">
-                <a href="tel:">(19) 9 9999-9999</a>
+                <?php 
+                    $tel = get_theme_mod('link_botao');
+                    if($tel):
+                ?>
+                <a href="tel:<?= $tel ?>"><?= $tel ?></a>
+                <?php endif; ?>
             </div>
             
             <div class="btn_menu">
