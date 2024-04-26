@@ -15,13 +15,11 @@
         <div class="container d-flex container_header">
             <div class="left_header d-flex">
                 <div class="logo logo_header">
-                    <a href="<?php echo esc_url(home_url('/')); ?>">
                         <?php if (has_custom_logo()) {
                             the_custom_logo();
                         } else {
                             echo '<h1>' . get_bloginfo('name') . '</h1>';
                         } ?>
-                    </a>
                 </div>
 
                 <nav id="main-menu" class="menu">

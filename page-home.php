@@ -14,14 +14,14 @@
         <div class="over_content_hero_home">
             <div class="container d-flex content_hero_home">
                 <div class="w-100 d-flex justify-space-between align-items-center">
-                    <h2 class="title-default m-b-40 f-60 text-uppercase animate__animated animate__fadeInLeft">Sua Personalidade</h2>
-                    <div class="f-40 d-flex animate__animated animate__fadeInRight">
-                        <a href="" class="m-auto color-white btn-default btn-icon d-flex align-items-center">Contato <span><i class="bi bi-arrow-right"></i></span></a>
+                    <h2 class="title-default m-b-40 f-60 text-uppercase animate__animated animate__fadeInLeft">WE CREATE BRANDS WITH THE POWER TO SHAPE HOW WE THINK.</h2>
+                    <div class="f-40 d-flex animate__animated animate__fadeInRight h-100 over_contact_us">
+                        <a href="" class="m-auto color-white btn-default btn-icon d-flex align-items-center">Contact Us <span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
                 </div>
-                <div class="w-100 d-flex justify-space-between">
-                    <p class="text-default m-b-60 animate__animated animate__fadeInLeft">Design e Criação de Marcas: Transformamos sua Visão em Identidade. Conte com nosso talento criativo para construir marcas memoráveis e impactantes.</p>
-                    <h2 class="title-default m-b-60 animate__animated animate__fadeInRight text-uppercase">Nossa Criação</h2>
+                <div class="w-100 d-flex justify-space-between ">
+                    <p class="text-default m-b-60 animate__animated animate__fadeInLeft">After all, have you ever wondered what your brand's mission is? What is its purpose for existing?</p>
+                    <h2 class="title-default m-b-60 animate__animated animate__fadeInRight text-uppercase"></h2>
                 </div>
             </div>
         </div>
